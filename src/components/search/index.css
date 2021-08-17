@@ -1,0 +1,70 @@
+.searchPage {
+    padding-top: 3vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchBar {
+    width: 200px;
+    align-items: center;
+    height: 45px;
+    margin-top: 3vh;
+    outline: none;
+    text-align: center;
+  }
+  .searchBtn{
+    height: 45px;
+  }
+  
+  .searchBtn:hover{
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .tableWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    color: #1e2022;
+    height: 400px;
+    width: fit-content;
+    overflow: scroll;
+    overflow-y: scroll;
+    margin-top: 4vh;
+  }
+  table{
+    border-collapse:collapse
+  }
+  
+  th {
+    text-transform: uppercase;
+    color: #6c757e;
+    background-color: #f8fafd;
+    border-color: #e7eaf3;
+    padding: .625rem
+  }
+  td, th{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  tr, th{
+    border-bottom: 2px solid black;
+    white-space: nowrap;
+  }
+  td{
+    font-size: 1rem;
+    max-width: 171px;
+  }
+  .errMessage{
+    padding-top: 2vh;
+    color: rgb(97, 4, 4);
+  }
+
+  .tippy{
+      color: rgb(255, 255, 255);
+      background-color: #3498db;
+      width: 100%;
+      padding-right: 25px;
+      font-size: 14px;
+      padding: 4%;
+  }
