@@ -10,6 +10,15 @@ General improvements regarding the code that will come with more experience
 
 Would like to add testings, which I will do as soon as I learn how to use the testing technologies better
 
+HOW TO GET STARTED:
+
+npm start
+
+Once the react app is up and running on the browser, open another terminal and run:
+
+npm run electron-dev
+
+
 
 # Getting Started with Create React App
 
