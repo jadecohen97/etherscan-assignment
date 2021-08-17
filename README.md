@@ -80,4 +80,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 THOUGHTS:
 
 General improvements regarding the code that will come with more experience
-Would like to add testing, which I will do as soon as I learn how to use the testing technologies better
+
+Would like to add testings, which I will do as soon as I learn how to use the testing technologies better
