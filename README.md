@@ -1,3 +1,25 @@
+TECH STACK:
+
+React.js
+
+Electron
+
+THOUGHTS:
+
+General improvements regarding the code that will come with more experience
+
+Would like to add testings, which I will do as soon as I learn how to use the testing technologies better
+
+HOW TO GET STARTED:
+
+npm start
+
+Once the react app is up and running on the browser, open another terminal and run:
+
+npm run electron-dev
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +90,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
