@@ -9,26 +9,29 @@ const TransactionsList = () => {
   const [result, setResult] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
   const [loading, setLoading] = useState(false);
+
   const handleChange = (event) => {
     setSearch(event.target.value);
   };
 
-  const getResults = async () => {
+  const getResults = () => {
     setLoading(true);
     try {
-      await fetch(
+      fetch(
         `${BaseUrl}/api?module=account&action=txlist&address=${search}&startblock=0&endblock=99999999&sort=desc&apikey=${api_key}`
       )
         .then((response) => response.json())
         .then((response) => {
           setLoading(false);
-          if (!(response?.status === "0")) {
+          if (!(response.status === "0")) {
             setErrorMessage("");
             setResult(response.result);
-          } else if (response?.message === "No transactions found") {
+          } else if (response.message === "No transactions found") {
             setErrorMessage(response.message);
+            setResult([]);
           } else {
             setErrorMessage(response.result);
+            setResult([]);
           }
         });
     } catch (err) {
@@ -36,6 +39,7 @@ const TransactionsList = () => {
       setErrorMessage(err);
     }
   };
+
   return (
     <div>
       <Header />
